@@ -15,7 +15,7 @@ class UserController extends Controller
     public function __construct()
     {
         $this->user = new User();
-        $this->userRepository = new UserRepository();
+        $this->userRepository = new UserRepository();   
 
     }
     public function index()
